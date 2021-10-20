@@ -1,0 +1,56 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    height: 103vh;
+    background:black;
+    text-align: center;
+
+}
+
+.calculadora{
+    display: inline-block;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 56%);
+}
+
+input, button{
+    border: none;
+    height: 50px;
+    outline: none;
+}
+
+input{
+    width:321px;
+    font-size: 30px;
+    margin-bottom: 2px;
+    background-color:black;
+    color: #EEEEEE;
+}
+
+button{
+    border-radius: 50%;
+    margin: 4px 2px 2px 2px;
+    font-family:'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    width: 60px;
+    color: beige;
+    background-color: grey;
+    opacity: 90%;   
+}
+
+button:active{
+    background: greenyellow;
+    color: #EEEEEE;
+}
+
+.soma, .divisao, .subtracao, .multiplicar, .igual{
+    background: orange;
+
+}
+
+.apagar{
+    background: red;
+}
